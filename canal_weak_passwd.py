@@ -9,7 +9,6 @@ from pocsuite3.api import (
 
 # 关于类的继承
 class CANALPOC(POCBase):
-    # fofa语句: title="任务调度中心"
     vulID = "0"  # ssvid ID 如果是提交漏洞的同时提交 PoC,则写成 0
     version = "1"  # 默认为1
     author = "xans"  # PoC作者的大名
